@@ -16,8 +16,8 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link to='/projects'>
-          <span className="nav-link active" aria-current="page"  >Projects</span>
+          <Link to='/contact'>
+          <span className="nav-link active" aria-current="page"  >Contact</span>
           </Link>
         </li>
         <li className="nav-item">
@@ -25,17 +25,17 @@ const Navbar = () => {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Projects
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">project1</a></li>
+            <li><a className="dropdown-item" href="#">project2</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="#">project3</a></li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link disabled">Mitchell Lev Merka</a>
         </li>
       </ul>
       <form className="d-flex" role="search">

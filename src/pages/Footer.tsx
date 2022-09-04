@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <h1 style={{ color: "red", textAlign: "center", marginTop: "25px" }}>
+      {/* <h1 style={{ color: "red", textAlign: "center", marginTop: "25px" }}>
         Mitchell Lev Merka
-      </h1>
+      </h1> */}
       <div style={{ color: "red", textAlign: "center" }}>
         <h6>Links:</h6>
         <ul className="footer-links">

@@ -1,11 +1,12 @@
-import React from 'react'
-
-
+import React from "react";
 
 const Resume = () => {
   return (
-    <div>Resume</div>
-  )
-}
+    <div>
+      <img src={require('../images/resume-placeholder.png')} alt="resume" />
+      
+    </div>
+  );
+};
 
-export default Resume
+export default Resume;

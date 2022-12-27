@@ -1,10 +1,16 @@
 import React from "react";
+import { Document, Page } from "react-pdf";
+import SinglePagePDFViewer from "../components/pdf/singlepage";
+
+
 
 const Resume = () => {
   return (
-    <div>
-      <img src={require('../images/resume-placeholder.png')} alt="resume" />
+    <div className="App">
       
+      <SinglePagePDFViewer pdf={Page} />
+
+      <hr />
     </div>
   );
 };

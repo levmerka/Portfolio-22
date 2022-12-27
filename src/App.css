@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: auto;
+  
+}
+/* .react-pdf__Page__textContent {display: none;} */
+.react-pdf__Document{
+  align-content: center;
+  text-align:center;
+  content: justify;
 }
 
 .App-logo {
